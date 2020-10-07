@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Error Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #defff8;
+        }
+
+        .error-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .error-wrapper > .error-heading {
+            font-family: 'Sansita Swashed', cursive;
+            margin-left: 2%;
+            margin-bottom: 42px;
+        }
+
+        img {
+            width: 39%;
+        }
+    </style>
+</head>
+<body>
+        <div class="error-wrapper">
+            <div class="error-heading">
+                <h2>Shoot... The page doesn't seem to exist. Or maybe it has something to do with our problem.
+                    We are busy right now but I bet another page could help you out. (Hey get back here with that! Rascal I told you not to eat the router!)
+                </h2>
+            </div>
+            <img src="tbot.png" alt="Page eating monster running off">
+        </div>
+</body>
+</html>
