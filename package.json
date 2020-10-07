@@ -1,0 +1,24 @@
+{
+  "name": "flexbox-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapArken20/flexbox-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapArken20/flexbox-course/issues"
+  },
+  "homepage": "https://github.com/CapArken20/flexbox-course#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2"
+  }
+}
